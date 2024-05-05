@@ -217,17 +217,31 @@ function queCounter(index){
 
 
 function authenticate() {
-    const password = prompt("Masukkan kata sandi:");
+    let passwordAttempts = 3; // Menetapkan jumlah percobaan maksimum
+    const delayTime = 3000; // Waktu penundaan dalam milidetik (di sini, 5000 milidetik = 3 detik)
 
-    // Ganti 'password123' dengan kata sandi yang diinginkan
-    if (password === "bernasx") {
-        // Jika kata sandi benar, lanjutkan ke situs web
-        unlockWebsite();
-    } else {
-        // Jika kata sandi salah, tampilkan pesan kesalahan atau alihkan ke halaman lain
-        alert("Kata sandi salah. Akses ditolak.");
-        // Atau bisa alihkan ke halaman lain:
-        // window.location.href = "halaman-error.html";
+    while (passwordAttempts > 0) { // Loop selama masih ada percobaan tersisa
+        const password = prompt("Masukkan kata sandi:");
+
+        // Ganti 'password123' dengan kata sandi yang diinginkan
+        if (password === "bernasX") {
+            // Jika kata sandi benar, lanjutkan ke situs web
+            unlockWebsite();
+            return; // Keluar dari fungsi setelah kata sandi benar
+        } else {
+            // Jika kata sandi salah, kurangi jumlah percobaan
+            passwordAttempts--;
+
+            // Tampilkan pesan kesalahan
+            alert("Kata sandi salah. Sisa percobaan: " + passwordAttempts);
+
+            // Jika tidak ada percobaan tersisa, beri waktu penundaan sebelum mencoba lagi
+            if (passwordAttempts === 0) {
+                alert("Anda telah mencapai jumlah maksimum percobaan. Silakan coba lagi dalam beberapa detik.");
+                setTimeout(authenticate, delayTime); // Menunggu beberapa detik sebelum memanggil kembali fungsi authenticate()
+                return;
+            }
+        }
     }
 }
 
@@ -236,7 +250,6 @@ function unlockWebsite() {
     // Contoh:
     document.body.classList.remove("locked");
 }
-
 
 // Panggil fungsi autentikasi saat dokumen dimuat
 document.addEventListener("DOMContentLoaded", function() {
