@@ -89,112 +89,47 @@ let questions = [
   },
 
   {
-    numb: 6,
-    question: " Apa yang dimaksud dengan hak kekayaan intelektual (HKI) dalam konteks produk informatika?",
-    answer: "Hak untuk mengklaim kepemilikan atas karya kreatif",
-    options: [
-      "Hak untuk mengakses internet gratis",
-      "Hak untuk mengekspor perangkat lunak",
-      "Hak untuk mengklaim kepemilikan atas karya kreatif",
-      "Hak untuk menghapus data pribadi dari internet",
-      "Hak untuk menyalin dan mendistribusikan konten tanpa izin"
-    ]
-  },
-
-  {
-    numb: 6,
-    question: " Apa yang dimaksud dengan hak kekayaan intelektual (HKI) dalam konteks produk informatika?",
-    answer: "Hak untuk mengklaim kepemilikan atas karya kreatif",
-    options: [
-      "Hak untuk mengakses internet gratis",
-      "Hak untuk mengekspor perangkat lunak",
-      "Hak untuk mengklaim kepemilikan atas karya kreatif",
-      "Hak untuk menghapus data pribadi dari internet",
-      "Hak untuk menyalin dan mendistribusikan konten tanpa izin"
-    ]
-  },
-
-  {
-    numb: 6,
-    question: " Apa yang dimaksud dengan hak kekayaan intelektual (HKI) dalam konteks produk informatika?",
-    answer: "Hak untuk mengklaim kepemilikan atas karya kreatif",
-    options: [
-      "Hak untuk mengakses internet gratis",
-      "Hak untuk mengekspor perangkat lunak",
-      "Hak untuk mengklaim kepemilikan atas karya kreatif",
-      "Hak untuk menghapus data pribadi dari internet",
-      "Hak untuk menyalin dan mendistribusikan konten tanpa izin"
-    ]
-  },
-
-
-  {
-    numb: 7,
-    question: "Bagaimana produk informatika berkontribusi terhadap pertumbuhan ekonomi?",
-    answer: "Dengan menciptakan lapangan kerja baru",
-    options: [
-      "Dengan membatasi akses informasi",
-      "Dengan meningkatkan biaya produksi",
-      "Dengan menciptakan lapangan kerja baru",
-      "Dengan mengurangi investasi dalam teknologi",
-      "Dengan meningkatkan kebutuhan akan bahan bakar fosil"
-    ]
-  },
-
-
-  {
     numb: 8,
-    question: "Apa yang dimaksud dengan perangkat lunak sumber terbuka (open source software) dalam konteks ekonomi produk informatika?",
-    answer: "Perangkat lunak yang dapat dimodifikasi dan didistribusikan secara bebas",
+    question: " Manakah dari pernyataan berikut yang benar tentang variabel dalam pemrograman prosedural?",
+    answer: " Variabel adalah simbol yang digunakan untuk menyimpan dan memanipulasi data",
     options: [
-      "Perangkat lunak yang hanya bisa diakses oleh pembeli berlangganan",
-      "Perangkat lunak yang dapat dimodifikasi dan didistribusikan secara bebas",
-      "Perangkat lunak yang hanya tersedia untuk perusahaan besar",
-      "Perangkat lunak yang tidak dapat diakses secara online",
-      "Perangkat lunak yang hanya bisa diinstal pada satu perangkat saja"
+      "Variabel hanya dapat diinisialisasi sekali",
+      "Variabel harus selalu dideklarasikan sebelum digunakan",
+      "Variabel adalah simbol yang digunakan untuk menyimpan dan memanipulasi data",
+      "Variabel hanya dapat menyimpan satu nilai pada satu waktu",
+      "Variabel harus selalu dideklarasikan dengan tipe data yang sama"
     ]
   },
-
 
   {
     numb: 9,
-    question: "Mengapa perlindungan data pribadi merupakan isu penting dalam hukum produk informatika?",
-    answer: "Untuk melindungi informasi pribadi pengguna",
+    question: " Apa yang dimaksud dengan prosedur dalam pemrograman prosedural?",
+    answer: "Sebuah blok kode yang menjalankan serangkaian instruksi secara berurutan",
     options: [
-      "Untuk membatasi akses pengguna internet",
-      "Untuk mempromosikan pelanggaran privasi",
-      "Untuk melindungi informasi pribadi pengguna",
-      "Untuk meningkatkan risiko keamanan siber",
-      "Untuk membatasi inovasi teknologi"
+      "Sebuah blok kode yang menjalankan operasi aritmatika",
+      "Sebuah blok kode yang menjalankan serangkaian instruksi secara berurutan",
+      "Sebuah blok kode yang menghasilkan nilai balik",
+      "Sebuah blok kode yang memungkinkan untuk melakukan percabangan",
+      "Sebuah metode untuk membagi program menjadi modul terpisah"
     ]
   },
 
   {
     numb: 10,
-    question: "Apa peran hukum dalam mengatur keamanan produk informatika?",
-    answer: "Menetapkan standar untuk perlindungan data dan privasi",
+    question: " Manakah dari struktur pengendalian berikut yang digunakan untuk melakukan iterasi dalam pemrograman prosedural?",
+    answer: "For",
     options: [
-      "Memperketat kontrol atas konten internet",
-      "Meningkatkan biaya produksi perangkat lunak",
-      "Menetapkan standar untuk perlindungan data dan privasi",
-      "Mengurangi inovasi dalam teknologi digital",
-      "Meniadakan akses internet di wilayah tertentu"
+      "If-else",
+      " Switch",
+      "For",
+      "Try-catch",
+      "While"
     ]
   },
 
-  
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+  
+
+  
+  
 ];
