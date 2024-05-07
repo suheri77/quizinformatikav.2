@@ -91,7 +91,7 @@ let questions = [
   {
     numb: 8,
     question: " Manakah dari pernyataan berikut yang benar tentang variabel dalam pemrograman prosedural?",
-    answer: " Variabel adalah simbol yang digunakan untuk menyimpan dan memanipulasi data",
+    answer: "Variabel adalah simbol yang digunakan untuk menyimpan dan memanipulasi data",
     options: [
       "Variabel hanya dapat diinisialisasi sekali",
       "Variabel harus selalu dideklarasikan sebelum digunakan",
